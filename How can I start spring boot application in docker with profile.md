@@ -1,7 +1,8 @@
 ### How can I start spring boot application in docker with profile?
 #### https://stackoverflow.com/questions/55752013/how-can-i-start-spring-boot-application-in-docker-with-profile
 #### https://www.baeldung.com/spring-profiles
-We have 3 ways:
+
+## We have 3 ways:
 
 1. Passing Spring Profile in a Dockerfile
 
