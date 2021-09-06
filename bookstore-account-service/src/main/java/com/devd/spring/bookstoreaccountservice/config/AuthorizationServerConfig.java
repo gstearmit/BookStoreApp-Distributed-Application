@@ -31,7 +31,7 @@ import java.io.IOException;
 import java.security.KeyPair;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Optional;
+import java.util.Optional; 
 
 import static org.apache.commons.lang.CharEncoding.UTF_8;
 
@@ -108,12 +108,11 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
       public OAuth2AccessToken enhance(OAuth2AccessToken accessToken, OAuth2Authentication authentication) {
 
         User principal = (User) authentication.getUserAuthentication().getPrincipal();
-          Optional<com.devd.spring.bookstoreaccountservice.repository.dao.User> userDetail
-                  = userRepository.findByUserName(principal.getUsername());
-          final Map<String, Object> additionalInfo = new HashMap<>();
+        Optional<com.devd.spring.bookstoreaccountservice.repository.dao.User> userDetail = userRepository.findByUserName(principal.getUsername());
+        final Map<String, Object> additionalInfo = new HashMap<>();
+
         userDetail.ifPresent(user -> additionalInfo.put("user_id", user.getUserId()));
-          ((DefaultOAuth2AccessToken) accessToken)
-                  .setAdditionalInformation(additionalInfo);
+        ((DefaultOAuth2AccessToken) accessToken).setAdditionalInformation(additionalInfo);
 
         accessToken = super.enhance(accessToken, authentication);
         ((DefaultOAuth2AccessToken) accessToken).setAdditionalInformation(new HashMap<>());
