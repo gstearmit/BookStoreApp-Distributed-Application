@@ -9,4 +9,8 @@ Code :  git@github.com:gstearmit/springboot-elk-prometheus-grafana.git
    - Chưa làm bước 1
    - Chưa làm bước 3
 
+
+   ![image info](./Step-2-build-centrall-logs-by-ELK/springboot-elk-prometheus-grafana/images/kibana-new-hot.png)
+   ![image info](./Step-2-build-centrall-logs-by-ELK/springboot-elk-prometheus-grafana/images/grafana-log.png)
+
 ### Step 3 : move hệ thống lên kubernet (hệ thống đang test spring boot + docker env)   
