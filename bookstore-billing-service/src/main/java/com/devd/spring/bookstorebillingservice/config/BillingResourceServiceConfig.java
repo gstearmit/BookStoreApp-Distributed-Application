@@ -6,10 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.oauth2.config.annotation.web.configurers.ResourceServerSecurityConfigurer;
 import org.springframework.security.oauth2.provider.token.ResourceServerTokenServices;
 
-/**
- * @author: Devaraj Reddy,
- * Date : 2019-09-20
- */
+
 @Configuration
 public class BillingResourceServiceConfig extends GlobalResourceServerConfig {
     

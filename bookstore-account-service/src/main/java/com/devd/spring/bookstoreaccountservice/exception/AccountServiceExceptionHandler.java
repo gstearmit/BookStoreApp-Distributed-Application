@@ -11,9 +11,7 @@ import org.springframework.security.access.AccessDeniedException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-/**
- * @author: Devaraj Reddy, Date : 2019-04-12 12:00
- */
+
 @ControllerAdvice
 @Slf4j
 public class AccountServiceExceptionHandler extends GlobalExceptionHandler {

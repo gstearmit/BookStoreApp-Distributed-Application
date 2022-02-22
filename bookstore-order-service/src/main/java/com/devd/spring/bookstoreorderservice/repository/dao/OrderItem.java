@@ -16,10 +16,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-/**
- * @author: Devaraj Reddy,
- * Date : 2019-09-18
- */
+
 @Entity
 @Table(name = "ORDER_ITEM")
 @Data

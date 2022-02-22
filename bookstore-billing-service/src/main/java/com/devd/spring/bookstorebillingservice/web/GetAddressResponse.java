@@ -3,10 +3,7 @@ package com.devd.spring.bookstorebillingservice.web;
 import lombok.Builder;
 import lombok.Data;
 
-/**
- * @author: Devaraj Reddy,
- * Date : 2019-09-21
- */
+
 @Data
 @Builder
 public class GetAddressResponse {

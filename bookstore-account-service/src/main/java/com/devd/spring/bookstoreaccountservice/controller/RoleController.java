@@ -15,9 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-/**
- * @author: Devaraj Reddy, Date : 2019-06-30
- */
+
 @RestController
 public class RoleController {
 

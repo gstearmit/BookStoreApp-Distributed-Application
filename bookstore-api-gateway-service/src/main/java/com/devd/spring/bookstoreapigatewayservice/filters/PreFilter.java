@@ -6,10 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;
 
-/**
- * @author: Devaraj Reddy,
- * Date : 2019-05-14 22:12
- */
+
 @Slf4j
 public class PreFilter extends ZuulFilter {
 

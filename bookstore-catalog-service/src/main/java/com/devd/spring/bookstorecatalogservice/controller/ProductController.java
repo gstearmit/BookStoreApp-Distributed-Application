@@ -27,10 +27,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import javax.validation.Valid;
 import java.net.URI;
 
-/**
- * @author: Devaraj Reddy,
- * Date : 2019-06-06
- */
+
 @RestController
 @CrossOrigin
 public class ProductController {

@@ -17,9 +17,7 @@ import javax.persistence.Table;
 import javax.validation.constraints.Pattern;
 import java.time.Instant;
 
-/**
- * @author Devaraj Reddy, Date : 07-Dec-2020
- */
+
 @Entity
 @Table(name = "ORDER_SHIPPING_ADDRESS")
 @Data

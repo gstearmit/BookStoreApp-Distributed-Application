@@ -16,9 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
 
-/**
- * @author: Devaraj Reddy, Date : 2019-05-18
- */
+
 @RestController
 @CrossOrigin
 public class AuthController {

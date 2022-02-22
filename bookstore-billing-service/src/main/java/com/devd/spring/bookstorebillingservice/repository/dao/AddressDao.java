@@ -15,10 +15,7 @@ import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import org.hibernate.annotations.GenericGenerator;
 
-/**
- * @author: Devaraj Reddy,
- * Date : 2019-09-20
- */
+
 @Entity
 @Table(name = "ADDRESS")
 @Data

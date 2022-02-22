@@ -17,10 +17,6 @@ import javax.persistence.ManyToOne;
 import javax.persistence.PreRemove;
 import javax.persistence.Table;
 
-/**
- * @author: Devaraj Reddy,
- * Date : 2019-06-17
- */
 
 @Entity
 @Table(name = "CART_ITEM")

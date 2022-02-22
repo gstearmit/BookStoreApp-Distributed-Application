@@ -9,9 +9,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
-/**
- * @author: Devaraj Reddy, Date : 2019-07-02
- */
+
 
 /*
 This is required for Feign clients to make request to services.

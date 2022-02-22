@@ -24,9 +24,7 @@ import java.util.Map;
 import static com.devd.spring.bookstorecommons.util.CommonUtilityMethods.getUserIdFromToken;
 import static com.devd.spring.bookstorecommons.util.CommonUtilityMethods.getUserNameFromToken;
 
-/**
- * @author Devaraj Reddy, Date : 25-Jul-2020
- */
+
 @Service
 @Slf4j
 public class PaymentMethodServiceImpl implements PaymentMethodService {

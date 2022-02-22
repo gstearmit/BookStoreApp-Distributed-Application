@@ -19,9 +19,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * @author Devaraj Reddy, Date : 25-Jul-2020
- */
+
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {

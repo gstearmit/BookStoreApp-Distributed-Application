@@ -24,9 +24,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.UUID;
 
-/**
- * @author Devaraj Reddy - 21-Dec-2020
- */
+
 /*
     Lot of improvement s can be done in image upload section.
     We can use AWS s3 to store images instead of this.

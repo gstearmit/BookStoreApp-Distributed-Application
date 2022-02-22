@@ -11,10 +11,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @author: Devaraj Reddy,
- * Date : 2019-07-02
- */
 @RestController
 @CrossOrigin
 public class CartController {

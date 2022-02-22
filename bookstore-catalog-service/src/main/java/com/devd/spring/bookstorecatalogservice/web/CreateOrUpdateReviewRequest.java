@@ -9,9 +9,7 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
-/**
- * @author Devaraj Reddy, Date : 07-Nov-2020
- */
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

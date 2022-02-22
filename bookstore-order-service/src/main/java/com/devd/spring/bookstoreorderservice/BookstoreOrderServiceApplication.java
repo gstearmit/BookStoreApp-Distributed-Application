@@ -6,10 +6,6 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
 
-/**
- * @author: Devaraj Reddy,
- * Date : 2019-13-06
- */
 @SpringBootApplication(scanBasePackages = {"com.devd.spring.bookstorecommons"})
 @ComponentScan(basePackages = {"com.devd.spring"})
 //, excludeFilters={

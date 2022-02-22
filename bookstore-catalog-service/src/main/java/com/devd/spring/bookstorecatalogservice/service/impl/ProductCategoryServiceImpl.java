@@ -15,10 +15,7 @@ import org.springframework.stereotype.Service;
 import javax.validation.Valid;
 import java.util.Optional;
 
-/**
- * @author: Devaraj Reddy,
- * Date : 2019-06-06
- */
+
 @Service
 public class ProductCategoryServiceImpl implements ProductCategoryService {
 

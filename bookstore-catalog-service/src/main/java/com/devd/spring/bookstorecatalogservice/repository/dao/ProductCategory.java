@@ -17,10 +17,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import java.util.List;
 
-/**
- * @author: Devaraj Reddy,
- * Date : 2019-06-04
- */
+
 @EqualsAndHashCode(callSuper = true)
 @Data
 @AllArgsConstructor

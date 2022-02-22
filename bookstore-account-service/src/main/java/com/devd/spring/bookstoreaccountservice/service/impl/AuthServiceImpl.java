@@ -21,9 +21,7 @@ import org.springframework.stereotype.Service;
 import java.util.Collections;
 import java.util.UUID;
 
-/**
- * @author: Devaraj Reddy, Date : 2019-06-30
- */
+
 @Service
 public class AuthServiceImpl implements AuthService {
 

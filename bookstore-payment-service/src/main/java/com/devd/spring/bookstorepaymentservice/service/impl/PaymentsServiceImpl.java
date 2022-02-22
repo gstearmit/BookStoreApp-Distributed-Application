@@ -23,9 +23,7 @@ import java.util.TimeZone;
 
 import static com.devd.spring.bookstorecommons.util.CommonUtilityMethods.getUserIdFromToken;
 
-/**
- * @author Devaraj Reddy, Date : 25-Jul-2020
- */
+
 @Service
 public class PaymentsServiceImpl implements PaymentsService {
 

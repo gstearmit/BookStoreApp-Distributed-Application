@@ -26,9 +26,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-/**
- * @author: Devaraj Reddy, Date : 2019-06-30
- */
+
 @RestController
 @CrossOrigin
 public class UserController {

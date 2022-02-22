@@ -35,9 +35,7 @@ import java.util.Optional;
 
 import static org.apache.commons.lang.CharEncoding.UTF_8;
 
-/**
- * @author: Devaraj Reddy, Date : 2019-05-17
- */
+
 @Configuration
 @EnableAuthorizationServer
 public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {

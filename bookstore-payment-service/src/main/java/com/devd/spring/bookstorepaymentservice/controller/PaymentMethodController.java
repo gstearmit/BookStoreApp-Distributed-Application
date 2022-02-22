@@ -16,9 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.validation.Valid;
 import java.util.List;
 
-/**
- * @author Devaraj Reddy, Date : 25-Jul-2020
- */
+
 @RestController
 @Slf4j
 public class PaymentMethodController {

@@ -13,9 +13,7 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.GenericFilterBean;
 
-/**
- * @author: Devaraj Reddy, Date : 2019-10-05
- */
+
 @Component
 @Order(TraceWebServletAutoConfiguration.TRACING_FILTER_ORDER + 1)
 public class AddTraceIdToHttpResponseConfig extends GenericFilterBean {

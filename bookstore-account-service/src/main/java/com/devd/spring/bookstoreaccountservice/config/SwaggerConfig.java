@@ -18,9 +18,7 @@ import springfox.documentation.spi.service.contexts.SecurityContext;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-/**
- * @author: Devaraj Reddy, Date : 2019-08-29
- */
+
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {
@@ -35,7 +33,7 @@ public class SwaggerConfig {
         "",
         "v1",
         "",
-        new Contact("Devaraj Reddy", "https://github.com/devdcores", "devarajreddy.gdr@gmail.com"),
+        new Contact("gstearmit Reddy", "https://github.com/gstearmit", "gstearmit@gmail.com"),
         "License of API", "API license URL", Collections.emptyList());
   }
 

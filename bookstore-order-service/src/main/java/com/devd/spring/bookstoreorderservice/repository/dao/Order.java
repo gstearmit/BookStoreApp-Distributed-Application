@@ -17,10 +17,7 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author: Devaraj Reddy,
- * Date : 2019-06-17
- */
+
 @Entity
 @Table(name = "ORDER_TABLE")
 @Data

@@ -10,9 +10,6 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import java.util.Collections;
 import java.util.UUID;
 
-/**
- * @author: Devaraj Reddy, Date : 2019-04-12 12:00
- */
 @ControllerAdvice
 @Slf4j
 public class GlobalExceptionHandler {

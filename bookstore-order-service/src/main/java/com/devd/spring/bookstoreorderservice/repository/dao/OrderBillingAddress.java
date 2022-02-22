@@ -16,9 +16,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.Pattern;
 
-/**
- * @author Devaraj Reddy, Date : 07-Dec-2020
- */
+
 @Entity
 @Table(name = "ORDER_BILLING_ADDRESS")
 @Data

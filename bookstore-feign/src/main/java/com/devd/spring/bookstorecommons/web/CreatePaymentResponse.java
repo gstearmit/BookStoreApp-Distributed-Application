@@ -7,9 +7,7 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
-/**
- * @author Devaraj Reddy - 17-Dec-2020
- */
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

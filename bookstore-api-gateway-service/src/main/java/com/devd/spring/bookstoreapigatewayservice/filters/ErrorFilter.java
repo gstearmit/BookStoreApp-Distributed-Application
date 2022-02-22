@@ -12,9 +12,6 @@ import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerExceptionResolver;
 
-/**
- * @author Devaraj Reddy, Date : 09-Dec-2020
- */
 @Component
 public class ErrorFilter extends ZuulFilter {
     private static final Logger LOG = LoggerFactory.getLogger(ErrorFilter.class);

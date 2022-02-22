@@ -21,10 +21,7 @@ import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author: Devaraj Reddy,
- * Date : 2019-06-17
- */
+
 @Entity
 @Table(name = "CART")
 @Data

@@ -7,10 +7,6 @@ import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.Link;
 
 
-/**
- * @author: Devaraj Reddy,
- * Date : 2019-08-27
- */
 @Data
 public class ProductResource extends EntityModel<Product> {
     

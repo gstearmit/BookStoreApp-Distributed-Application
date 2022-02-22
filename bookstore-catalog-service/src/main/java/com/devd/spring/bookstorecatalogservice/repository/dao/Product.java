@@ -19,10 +19,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-/**
- * @author: Devaraj Reddy,
- * Date : 2019-06-04
- */
 @EqualsAndHashCode(callSuper = true)
 @Data
 @Entity

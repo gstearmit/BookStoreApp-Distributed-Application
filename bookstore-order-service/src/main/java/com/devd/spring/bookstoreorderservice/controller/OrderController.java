@@ -17,10 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.validation.Valid;
 import java.util.List;
 
-/**
- * @author: Devaraj Reddy,
- * Date : 2019-07-14
- */
+
 @RestController
 public class OrderController {
     

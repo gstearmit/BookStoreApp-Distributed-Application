@@ -13,10 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @author: Devaraj Reddy,
- * Date : 2019-06-17
- */
+
 @RestController
 @CrossOrigin
 public class CartItemController {

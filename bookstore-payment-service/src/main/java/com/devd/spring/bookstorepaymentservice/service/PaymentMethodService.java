@@ -5,9 +5,7 @@ import com.devd.spring.bookstorepaymentservice.web.GetPaymentMethodResponse;
 
 import java.util.List;
 
-/**
- * @author Devaraj Reddy, Date : 25-Jul-2020
- */
+
 public interface PaymentMethodService {
     void createPaymentMethod(CreatePaymentMethodRequest createPaymentMethodRequest);
 

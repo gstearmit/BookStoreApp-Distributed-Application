@@ -6,9 +6,7 @@ import com.devd.spring.bookstorecatalogservice.web.UpdateProductCategoryRequest;
 import javax.validation.Valid;
 import org.springframework.data.domain.Page;
 
-/**
- * @author: Devaraj Reddy, Date : 2019-09-27
- */
+
 public interface ProductCategoryService {
 
   String createProductCategory(@Valid CreateProductCategoryRequest createProductCategoryRequest);

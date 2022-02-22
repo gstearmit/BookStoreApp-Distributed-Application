@@ -23,10 +23,7 @@ import javax.validation.Valid;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * @author: Devaraj Reddy,
- * Date : 2019-06-06
- */
+
 @Service
 public class ProductServiceImpl implements ProductService {
 

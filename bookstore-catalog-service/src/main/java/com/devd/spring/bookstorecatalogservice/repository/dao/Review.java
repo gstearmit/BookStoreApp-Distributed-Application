@@ -16,9 +16,7 @@ import javax.persistence.Table;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 
-/**
- * @author Devaraj Reddy, Date : 07-Nov-2020
- */
+
 @EqualsAndHashCode(callSuper = true)
 @Data
 @Entity
