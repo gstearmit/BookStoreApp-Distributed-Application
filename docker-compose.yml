@@ -196,7 +196,7 @@ services:
       - bookstore-app-network
 
   bookstore-influxdb:
-    image: influxdb
+    image: influxdb:1.8
     container_name: bookstore-influxdb
     hostname: bookstore-influxdb
     volumes:
@@ -228,6 +228,8 @@ services:
     environment:
       KAPACITOR_HOSTNAME: bookstore-kapacitor
       KAPACITOR_INFLUXDB_0_URLS_0: http://bookstore-influxdb:8086
+      KAPACITOR_INFLUXDB_USERNAME: "admin"
+      KAPACITOR_INFLUXDB_PASSWORD: "admin@Influx123"
     ports:
       - "9092:9092"
     networks:

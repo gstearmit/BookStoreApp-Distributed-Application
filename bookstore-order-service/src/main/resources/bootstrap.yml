@@ -58,6 +58,7 @@ management:
         db: bookstore_influxdb_monitoring_metrics
         uri: http://bookstore-influxdb:8086
         auto-create-db: true
+        token: DyLbnQHHQbNfwGcz2K4k7oaTCh9ETovgTdcyj8J4zdp9bh53k7yglbpGHnVOUYtcbUusaFtE2uTfBfwzniSIXA==
   endpoints:
     web:
       exposure:

@@ -23,6 +23,7 @@ axios.interceptors.response.use(
       const refreshToken = JSON.parse(localStorage.getItem('userInfo'))?.refresh_token;
       if (refreshToken) {
         const tokenParts = JSON.parse(atob(refreshToken.split('.')[1]));
+        console.log('@Dev Token Parts:' + tokenParts);
         // exp date in token is expressed in seconds, while now() returns milliseconds:
         const now = Math.ceil(Date.now() / 1000);
 
